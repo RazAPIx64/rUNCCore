@@ -1,6 +1,8 @@
+// [rUNCCore]
 export namespace rUNC
 {
-    export namespace startup
+    // [rUNCCore::Startup]
+    export namespace Startup
     {
         // [rUNC::Startup::PlaceDependencies]
         export let place_dependencies = {
