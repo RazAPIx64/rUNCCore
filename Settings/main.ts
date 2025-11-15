@@ -1,4 +1,6 @@
+// [rUNCCore]
 export namespace rUNC {
+    // [rUNCCore::Settings]
     export namespace settings {
         // [rUNC::Settings::UseInterface]
         export let use_interface = true;
