@@ -1,5 +1,7 @@
+// [rUNCCore]
 export namespace rUNC {
-    export namespace core {
+    // [rUNCCore::Deps]
+    export namespace Deps {
         // [rUNCCore::Deps::Communicator]
         export let cache_comm: Folder = ReplicatedStorage.FindFirstChild("rUNCCommunication") as Folder;
 
