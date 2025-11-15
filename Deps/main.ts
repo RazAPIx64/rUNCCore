@@ -5,5 +5,8 @@ export namespace rUNC {
 
         // [rUNCCore::Deps::Directory]
         export let comm_directory: Instance;
+
+        // [rUNCCore::Deps::SignConnection(RBXScriptSignal, Function)]
+        export const sign_connection = <T extends (...args: unknown[]) => void>(c: RBXScriptSignal<T>, f: T) => c.Connect(f);
     }
 }
