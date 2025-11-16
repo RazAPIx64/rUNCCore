@@ -16,5 +16,8 @@ export namespace rUNC {
 
         // [rUNCCore::Deps::Analyze(Function: string, Callback: Function)]
         export const r_analyze = (fn: string, callback: () => void) {}
+        
+        // [rUNCCore::Deps::Caller(Action: string, namespace: string, callback: () => void)]
+        export const r_caller = (move: string, space: string, callback: () => void) {}
     }
 }
